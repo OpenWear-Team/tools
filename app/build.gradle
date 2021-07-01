@@ -25,6 +25,7 @@ android {
         versionCode 1
         versionName '0.1.0'
         resValue 'string', 'app_version', versionName + ' (' + versionCode + ')'
+        resValue 'string', 'materialfiles_version', '1.2.1 (23)'
         buildConfigField 'String', 'FILE_PROVIDIER_AUTHORITY', 'APPLICATION_ID + ".file_provider"'
         resValue 'string', 'app_provider_authority', applicationId + '.app_provider'
         resValue 'string', 'file_provider_authority', applicationId + '.file_provider'

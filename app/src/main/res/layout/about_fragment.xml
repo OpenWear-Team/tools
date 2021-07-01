@@ -125,7 +125,7 @@
                                     android:layout_marginStart="@dimen/content_start_from_screen_edge_margin_minus_24dp"
                                     android:ellipsize="end"
                                     android:maxLines="1"
-                                    android:text="@string/app_version"
+                                    android:text="@string/materialfiles_version"
                                     android:textAppearance="@style/TextAppearance.AppCompat.Caption" />
                             </LinearLayout>
                         </me.zhanghai.android.foregroundcompat.ForegroundLinearLayout>
