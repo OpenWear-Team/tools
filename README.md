@@ -1,5 +1,19 @@
 # OpenWear Tools
 🔧 Designed to give you freedom on various wearable devices
+## Features
+- [x] File manager (Material Files)
+- [ ] Wi-Fi ADB debug the device itself
+  - [ ] Install apks
+  - [ ] Adjust the DPI
+  - [ ] Terminal (For accessing adb shell)
+  - [ ] …
+- [ ] FTP server (Already in Material Files)
+- [ ] SSH server
+  - [ ] SFTP server
+- [ ] HTTP server (Only for uploading file to the device)
+  - [ ] Beautiful and powerful frontend design (Bushi) on that upload page
+  - [ ] Generate QR code for LAN+port+path
+    - [ ] Help users to switch to an external browser by showing an attention when they're using some in-app browsers like WeChat or QQ and etc.
 ## Thanks to following projects
 - [zhanghai/MaterialFiles](https://github.com/zhanghai/MaterialFiles)
 - [NanoHttpd/nanohttpd](https://github.com/NanoHttpd/nanohttpd)
