@@ -7,11 +7,9 @@ package wiki.wear.openweartools.materialfiles.app
 
 import android.os.AsyncTask
 import android.os.Build
-import android.webkit.WebView
 import com.facebook.stetho.Stetho
 import com.jakewharton.threetenabp.AndroidThreeTen
 import jcifs.context.SingletonContext
-import wiki.wear.openweartools.BuildConfig
 import wiki.wear.openweartools.materialfiles.coil.initializeCoil
 import wiki.wear.openweartools.materialfiles.compat.RestrictedHiddenApiAccess
 import wiki.wear.openweartools.materialfiles.filejob.fileJobNotificationTemplate
@@ -28,7 +26,7 @@ import wiki.wear.openweartools.materialfiles.provider.smb.client.Client as SmbCl
 
 val appInitializers = listOf(
     ::initializeCrashlytics, ::allowRestrictedHiddenApiAccess, ::initializeThreeTen,
-    ::initializeWebViewDebugging, ::initializeStetho, ::initializeCoil,
+    ::initializeStetho, ::initializeCoil,
     ::initializeFileSystemProviders, ::upgradeApp, ::initializeSettings, ::initializeCustomTheme,
     ::initializeNightMode, ::createNotificationChannels
 )
@@ -42,12 +40,6 @@ private fun allowRestrictedHiddenApiAccess() {
 
 private fun initializeThreeTen() {
     AndroidThreeTen.init(application)
-}
-
-private fun initializeWebViewDebugging() {
-    if (BuildConfig.DEBUG) {
-        WebView.setWebContentsDebuggingEnabled(true)
-    }
 }
 
 private fun initializeStetho() {

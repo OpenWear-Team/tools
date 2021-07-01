@@ -10,10 +10,11 @@ import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
+import wiki.wear.openweartools.R
 import wiki.wear.openweartools.databinding.AboutFragmentBinding
-import wiki.wear.openweartools.materialfiles.ui.LicensesDialogFragment
 import wiki.wear.openweartools.materialfiles.util.createViewIntent
 import wiki.wear.openweartools.materialfiles.util.startActivitySafe
 
@@ -36,7 +37,13 @@ class AboutFragment : Fragment() {
         activity.setSupportActionBar(binding.toolbar)
         activity.supportActionBar!!.setDisplayHomeAsUpEnabled(true)
         binding.gitHubLayout.setOnClickListener { startActivitySafe(GITHUB_URI.createViewIntent()) }
-        binding.licensesLayout.setOnClickListener { LicensesDialogFragment.show(this) }
+        binding.licensesLayout.setOnClickListener {
+            Toast.makeText(
+                this.context,
+                getString(R.string.wearos_doesnot_support_webview),
+                Toast.LENGTH_SHORT
+            ).show()
+        }
         binding.authorNameLayout.setOnClickListener {
             startActivitySafe(AUTHOR_RESUME_URI.createViewIntent())
         }
