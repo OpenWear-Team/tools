@@ -12,7 +12,7 @@
     android:layout_height="match_parent"
     android:fitsSystemWindows="true">
 
-    <me.zhanghai.android.files.ui.CoordinatorAppBarLayout
+    <wiki.wear.openweartools.materialfiles.ui.CoordinatorAppBarLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?colorAppBarSurface"
@@ -25,9 +25,9 @@
             android:layout_width="match_parent"
             android:layout_height="?actionBarSize"
             app:popupTheme="?actionBarPopupTheme" />
-    </me.zhanghai.android.files.ui.CoordinatorAppBarLayout>
+    </wiki.wear.openweartools.materialfiles.ui.CoordinatorAppBarLayout>
 
-    <me.zhanghai.android.files.ui.CoordinatorScrollingFrameLayout
+    <wiki.wear.openweartools.materialfiles.ui.CoordinatorScrollingFrameLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
@@ -71,7 +71,7 @@
                                 android:layout_width="@dimen/large_icon_size"
                                 android:layout_height="@dimen/large_icon_size"
                                 android:scaleType="centerCrop"
-                                android:src="@mipmap/launcher_icon" />
+                                android:src="@mipmap/material_files_icon" />
 
                             <TextView
                                 android:layout_width="wrap_content"
@@ -79,7 +79,7 @@
                                 android:layout_marginStart="@dimen/content_start_from_screen_edge_margin_minus_40dp"
                                 android:ellipsize="end"
                                 android:maxLines="1"
-                                android:text="@string/app_name"
+                                android:text="@string/material_files"
                                 android:textAppearance="@style/TextAppearance.AppCompat.Headline" />
                         </LinearLayout>
 
@@ -357,5 +357,5 @@
                 </com.google.android.material.card.MaterialCardView>
             </LinearLayout>
         </androidx.core.widget.NestedScrollView>
-    </me.zhanghai.android.files.ui.CoordinatorScrollingFrameLayout>
+    </wiki.wear.openweartools.materialfiles.ui.CoordinatorScrollingFrameLayout>
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

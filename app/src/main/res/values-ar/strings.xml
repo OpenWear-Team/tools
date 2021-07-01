@@ -7,7 +7,7 @@
 
 <resources>
 
-    <string name="app_name">ملفات متيريال</string>
+    <string name="material_files">ملفات متيريال</string>
 
     <string name="close">أغلق</string>
     <string name="copy">انسخ</string>

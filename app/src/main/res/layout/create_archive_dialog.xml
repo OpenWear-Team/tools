@@ -24,7 +24,7 @@
 
             <include layout="@layout/file_name_dialog_name_include" />
 
-            <me.zhanghai.android.files.filelist.CreateArchiveTypeRadioGroup
+            <wiki.wear.openweartools.materialfiles.filelist.CreateArchiveTypeRadioGroup
                 android:id="@+id/typeGroup"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -60,7 +60,7 @@
                     android:text="@string/file_create_archive_type_7z"
                     android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
                     android:visibility="@integer/create_archive_type_seven_z_visibility" />
-            </me.zhanghai.android.files.filelist.CreateArchiveTypeRadioGroup>
+            </wiki.wear.openweartools.materialfiles.filelist.CreateArchiveTypeRadioGroup>
         </LinearLayout>
     </androidx.core.widget.NestedScrollView>
 </FrameLayout>

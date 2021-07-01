@@ -12,8 +12,8 @@ import android.view.View;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
-import me.zhanghai.android.files.R;
-import me.zhanghai.android.files.util.ContextExtensionsKt;
+import wiki.wear.openweartools.R;
+import wiki.wear.openweartools.materialfiles.util.ContextExtensionsKt;
 
 public class ThemedSwipeRefreshLayout extends SwipeRefreshLayout {
     public ThemedSwipeRefreshLayout(@NonNull Context context) {

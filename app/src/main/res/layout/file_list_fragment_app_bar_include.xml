@@ -10,7 +10,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <!-- app:statusBarBackground is broken when scrolling. -->
-    <me.zhanghai.android.files.ui.CoordinatorAppBarLayout
+    <wiki.wear.openweartools.materialfiles.ui.CoordinatorAppBarLayout
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,7 +24,7 @@
             android:layout_height="wrap_content"
             app:layout_scrollFlags="@integer/file_list_toolbar_scroll_flags">
 
-            <me.zhanghai.android.files.ui.CrossfadeSubtitleToolbar
+            <wiki.wear.openweartools.materialfiles.ui.CrossfadeSubtitleToolbar
                 android:id="@+id/toolbar"
                 android:layout_width="match_parent"
                 android:layout_height="?actionBarSize"
@@ -46,11 +46,11 @@
                 app:popupTheme="?actionBarPopupTheme" />
         </FrameLayout>
 
-        <me.zhanghai.android.files.filelist.BreadcrumbLayout
+        <wiki.wear.openweartools.materialfiles.filelist.BreadcrumbLayout
             android:id="@+id/breadcrumbLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:paddingStart="@dimen/content_start_margin_minus_12dp"
             android:paddingEnd="@dimen/screen_edge_margin_minus_12dp" />
-    </me.zhanghai.android.files.ui.CoordinatorAppBarLayout>
+    </wiki.wear.openweartools.materialfiles.ui.CoordinatorAppBarLayout>
 </merge>

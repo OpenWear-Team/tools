@@ -7,7 +7,8 @@
 
 <resources>
 
-    <string name="app_name">Material Files</string>
+    <string name="material_files">Material Files</string>
+    <string name="app_name">OWTools</string>
 
     <string name="close">Close</string>
     <string name="copy">Copy</string>

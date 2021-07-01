@@ -5,7 +5,7 @@
   ~ All Rights Reserved.
   -->
 
-<me.zhanghai.android.files.ui.CheckableForegroundLinearLayout
+<wiki.wear.openweartools.materialfiles.ui.CheckableForegroundLinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:id="@+id/itemLayout"
@@ -25,7 +25,7 @@
         android:duplicateParentState="true"
         android:padding="@dimen/touch_target_large_icon_padding">
 
-        <me.zhanghai.android.files.ui.DisabledAlphaImageView
+        <wiki.wear.openweartools.materialfiles.ui.DisabledAlphaImageView
             android:id="@+id/iconImage"
             android:layout_width="@dimen/icon_size"
             android:layout_height="@dimen/icon_size"
@@ -33,14 +33,14 @@
             android:duplicateParentState="true"
             android:scaleType="centerCrop" />
 
-        <me.zhanghai.android.files.ui.DisabledAlphaImageView
+        <wiki.wear.openweartools.materialfiles.ui.DisabledAlphaImageView
             android:id="@+id/thumbnailImage"
             android:layout_width="@dimen/large_icon_size"
             android:layout_height="@dimen/large_icon_size"
             android:duplicateParentState="true"
             android:scaleType="centerCrop" />
 
-        <me.zhanghai.android.files.ui.DisabledAlphaImageView
+        <wiki.wear.openweartools.materialfiles.ui.DisabledAlphaImageView
             android:id="@+id/badgeImage"
             android:layout_width="@dimen/badge_size"
             android:layout_height="@dimen/badge_size"
@@ -48,7 +48,7 @@
             android:background="@drawable/badge_background_18dp"
             android:duplicateParentState="true" />
 
-        <me.zhanghai.android.files.ui.DisabledAlphaImageView
+        <wiki.wear.openweartools.materialfiles.ui.DisabledAlphaImageView
             android:layout_width="@dimen/badge_size"
             android:layout_height="@dimen/badge_size"
             android:layout_gravity="end|bottom"
@@ -73,7 +73,7 @@
             android:singleLine="true"
             android:textAppearance="@style/TextAppearance.AppCompat.Subhead" />
 
-        <me.zhanghai.android.files.ui.AutoGoneTextView
+        <wiki.wear.openweartools.materialfiles.ui.AutoGoneTextView
             android:id="@+id/descriptionText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -100,4 +100,4 @@
         android:foreground="@drawable/selectable_item_background_oval"
         android:src="@drawable/more_vertical_icon_white_24dp"
         app:tint="?colorControlNormal" />
-</me.zhanghai.android.files.ui.CheckableForegroundLinearLayout>
+</wiki.wear.openweartools.materialfiles.ui.CheckableForegroundLinearLayout>

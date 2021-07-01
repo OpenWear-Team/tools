@@ -27,20 +27,20 @@
 }
 
 # App
--keep class me.zhanghai.android.files.** implements androidx.appcompat.view.CollapsibleActionView { *; }
--keep class me.zhanghai.android.files.provider.common.ByteString { *; }
--keep class me.zhanghai.android.files.provider.linux.syscall.** { *; }
+-keep class wiki.wear.openweartools.materialfiles.** implements androidx.appcompat.view.CollapsibleActionView { *; }
+-keep class wiki.wear.openweartools.materialfiles.provider.common.ByteString { *; }
+-keep class wiki.wear.openweartools.materialfiles.provider.linux.syscall.** { *; }
 -keepnames class * extends java.lang.Exception
 # For Class.getEnumConstants()
 -keepclassmembers enum * {
   public static **[] values();
 }
--keepnames class me.zhanghai.android.files.** implements android.os.Parcelable
+-keepnames class wiki.wear.openweartools.materialfiles.** implements android.os.Parcelable
 
 # Apache Commons Compress
 -dontwarn org.apache.commons.compress.compressors.**
 -dontwarn org.apache.commons.compress.archivers.**
-# me.zhanghai.android.files.provider.archive.archiver.ArchiveWriter.sTarArchiveEntryLinkFlagsField
+# wiki.wear.openweartools.materialfiles.provider.archive.archiver.ArchiveWriter.sTarArchiveEntryLinkFlagsField
 -keepclassmembers class org.apache.commons.compress.archivers.tar.TarArchiveEntry {
     byte linkFlag;
 }
