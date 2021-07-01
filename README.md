@@ -1,5 +1,11 @@
 # OpenWear Tools
 🔧 Designed to give you freedom on various wearable devices
+## Thanks to following projects
+- [zhanghai/MaterialFiles](https://github.com/zhanghai/MaterialFiles)
+- [NanoHttpd/nanohttpd](https://github.com/NanoHttpd/nanohttpd)
+- [jsch](http://www.jcraft.com/jsch/)
+- [mwiede/jsch](https://github.com/mwiede/jsch)
+- [vidstige/jadb](https://github.com/vidstige/jadb)
 ## License
 <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 
